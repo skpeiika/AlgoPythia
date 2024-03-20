@@ -1,2 +1,1 @@
-# blog
-Blog/self notes
+# TITLE
