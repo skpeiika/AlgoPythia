@@ -67,7 +67,9 @@ class PhoneBook:
         print("|-----|-----------------|--------------|")
         while current_node:
             print(
-                f"| {str(current_node.count).center(3)} | {current_node.data_name.ljust(15)} | {current_node.data_number.center(12)} |")
+                f"| {str(current_node.count).center(3)} | "
+                f"{current_node.data_name.ljust(15)} | "
+                f"{current_node.data_number.center(12)} |")
             current_node = current_node.next
         print("+--------------------------------------+")
 
@@ -87,11 +89,13 @@ def test():
 
     phone_book.print_list()
 
-    phone_book.insert('NAME', '7800000000')
+    # phone_book.insert('NAME', '7800000000')
 
-    phone_book.print_list()
+    # phone_book.print_list()
 
-    phone_book.delete_entry("John Smith")
+    # phone_book.delete_entry("John Smith")
 
-    phone_book.print_list()
+    # phone_book.print_list()
+
+
 test()
